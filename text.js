@@ -1,8 +1,4 @@
-function f2(textarea)
-{
-    string = textarea.value;
-    alert(string);
-    string = string.toLowerCase();
-
-    textarea.value = string;
+const uppercaseEl = document.getElementById('outputText')
+function update(el) {
+    uppercaseEl.value = el.value.toUpperCase()
 }
