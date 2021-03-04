@@ -5,15 +5,21 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>Echo Tool</title>
+    <link rel="stylesheet" href="styles.css">
+   <script src="autoresize.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <img src="media\\svg-top.png">
+    <h1 class="header">Echo Tool</h1>
+    <p class="author">by Rademenes16</p>
+    <h3>INPUT</h3>
+    <textarea id="inputText" placeholder="Enter the text you want to caps" cols="70" rows="10" wrap="on"></textarea>
+    <h3>OUTPUT</h3>
+    <textarea id="outputText" placeholder="Here your text will appear in caps" cols="70" rows="10" wrap="on" readonly></textarea>
 
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
+    <img src="media\\svg-bottom.png" id="bottom-img">
+<script src="text.js"></script>
+ <script src="./renderer.js"></script>
   </body>
 </html>

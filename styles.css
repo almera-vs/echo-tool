@@ -1,0 +1,88 @@
+html,body{
+    padding:0;
+    margin:0;
+    width: 100vw;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  img {
+    width:100vw;
+    height:15vh;
+    max-width: 100vw;
+    margin:0px;
+    padding:0px;
+  
+    
+    /* remove white space below the images */
+    display: block;
+  
+  
+    /* images cannot be dragged */
+    user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  }
+  
+  #bottom-img{
+    position: relative;
+    bottom:0;
+    left: 0;
+  }
+  
+  /* remove horizontal scrollbar */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  textarea{
+
+    display: block;
+    margin: 0 auto;
+
+
+    outline: none;
+    border: 4px solid black;
+    border-radius: 15px;
+    resize:none;
+    overflow: auto;
+  }
+  
+  .header{
+  position:relative;
+  top:-8vh;
+  text-align: center;
+  z-index: 999;
+      word-spacing: 1vw;
+      color: black;
+      display: block;
+      text-transform: none;
+      font-size: clamp(2rem,calc(2rem + 1.2vw),3rem);
+      font-weight: 700;
+      font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+      text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+  }
+.author{
+  font-size: smaller;
+  position:relative;
+  text-align: center;
+  top:-12vh;
+  text-transform: none;
+  font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+  text-shadow: 0 1px 1px rgb(0 0 0 / 50%);
+}
+  h3{
+    position:relative;
+    text-align: center;
+    z-index: 999;
+        word-spacing: 1vw;
+        color: black;
+        display: block;
+        text-transform: none;
+        font-size: clamp(1rem,calc(1rem + 1.2vw),3rem);
+        font-weight: 1000;
+        font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+        text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+  }
