@@ -6,6 +6,10 @@
   "main": "./main.js",
   "version": "1.0.0",
   "author": "Rademenes16",
+  "build": "electron-packager . --out=dist/win --platform=win32 --arch=x64 --icon=./icon/icon.ico --asar=true --overwrite",
+  "win": {
+    "icon": "icon/icon.ico"
+  },
   "scripts": {
     "start": "electron ."
   },

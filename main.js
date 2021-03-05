@@ -10,7 +10,7 @@ function createWindow () {
     minWidth: 650,
     backgroundColor: '#255255255',
     show: 'ready-to-show',
-    icon: __dirname + '/icon.ico',
+    icon: __dirname + '/icon/icon.ico',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
