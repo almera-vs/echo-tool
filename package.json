@@ -1,11 +1,11 @@
 {
   "name": "echo-tool",
   "productName": "echo-tool",
-  "description": "My Electron application description",
+  "description": "App that changes lowercase text to uppercase.",
   "keywords": [],
   "main": "./main.js",
   "version": "1.0.0",
-  "author": "1",
+  "author": "Rademenes16",
   "scripts": {
     "start": "electron ."
   },

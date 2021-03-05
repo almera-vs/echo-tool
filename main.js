@@ -8,13 +8,16 @@ function createWindow () {
     height: 600,
     minHeight:550,
     minWidth: 650,
-    icon: __dirname + 'media/Icon.ico',
+    backgroundColor: '#255255255',
+    show: 'ready-to-show',
+    icon: __dirname + 'media/icon.ico',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
   })
-
-
+  
+  mainWindow.setMenuBarVisibility(false)
+  //win.setOpacity(opacity) = 0
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
 

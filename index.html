@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <title>Echo Tool</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <img src="media\\svg-top.png">
     <h1 class="header">Echo Tool</h1>
-    <p class="author">by Rademenes16</p>
+    <p class="author">Made with ❤️ by Rademenes16</p>
     <h3>INPUT</h3>
     <textarea id="inputText" oninput="update(this)" placeholder="Enter or paste the text here" cols="70" rows="10" wrap="on"></textarea>
     <h3>OUTPUT</h3>
     <textarea id="outputText" placeholder="" cols="70" rows="10" wrap="on" readonly></textarea>
+    <button onclick="copy()" id="button">Copy</button>
     <script src="text.js">
     </script>
     <img src="media\\svg-bottom.png" id="bottom-img">
