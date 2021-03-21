@@ -8,17 +8,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
-    <img src="media\\svg-top.png">
+    <img src="media\\svg-top.png" class="top-img">
+    <div class="sidebar">
+
+      <!-- copy icon -->
+      <a href="index.html" class="svg">
+     <svg version="1.1" id="sidebaricon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="561px" height="561px" viewBox="0 0 561 561" style="enable-background:new 0 0 561 561;" xml:space="preserve">
+   <g>
+	<g>
+		<path d="M395.25,0h-306c-28.05,0-51,22.95-51,51v357h51V51h306V0z M471.75,102h-280.5c-28.05,0-51,22.95-51,51v357
+			c0,28.05,22.95,51,51,51h280.5c28.05,0,51-22.95,51-51V153C522.75,124.95,499.8,102,471.75,102z M471.75,510h-280.5V153h280.5V510
+			z"/>
+	</g>
+  </g>
+</svg> 
+</a>
+
+<!-- info icon -->
+<a href="info.html" class="svg">
+  <svg version="1.1" id="sidebaricon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+  <g>
+ <path d="M165,0C74.019,0,0,74.02,0,165.001C0,255.982,74.019,330,165,330s165-74.018,165-164.999C330,74.02,255.981,0,165,0z
+    M165,300c-74.44,0-135-60.56-135-134.999C30,90.562,90.56,30,165,30s135,60.562,135,135.001C300,239.44,239.439,300,165,300z"/>
+ <path d="M164.998,70c-11.026,0-19.996,8.976-19.996,20.009c0,11.023,8.97,19.991,19.996,19.991
+   c11.026,0,19.996-8.968,19.996-19.991C184.994,78.976,176.024,70,164.998,70z"/>
+ <path d="M165,140c-8.284,0-15,6.716-15,15v90c0,8.284,6.716,15,15,15c8.284,0,15-6.716,15-15v-90C180,146.716,173.284,140,165,140z
+   "/>
+</g>
+</svg>
+</a>
+       </div>
+
     <h1 class="header">Echo Tool</h1>
     <p class="author">Made with ❤️ by Rademenes16</p>
     <h3>INPUT</h3>
     <textarea id="inputText" oninput="update(this)" placeholder="Enter or paste the text here" cols="70" rows="10" wrap="on"></textarea>
     <h3>OUTPUT</h3>
     <textarea id="outputText" placeholder="" cols="70" rows="10" wrap="on" readonly></textarea>
-    <button onclick="copy()" id="button">Copy</button>
+    <button onclick="copy()" id="button" alt="copy"><img src="media/copy.png" id="copy-img"></button>
+    <div id="popUp" style="display: none;"> copy </div> 
     <script src="text.js">
     </script>
-    <img src="media\\svg-bottom.png" id="bottom-img">
+    <img src="media\\svg-bottom.png" class="bottom-img">
  <script src="./renderer.js"></script>
   </body>
 </html>
