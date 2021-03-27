@@ -12,7 +12,7 @@ a{
 .sidebar{
   float:left;
   height:auto;
-  min-height: 25vh;
+  min-height: 36vh;
 background-color: #00ffcc;
 width:auto;
 max-width: 6vw;
@@ -130,7 +130,20 @@ svg{
         font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
         text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
   }
-
+h4{
+  position:relative;
+  top:-8vh;
+  text-align: center;
+  z-index: 999;
+      word-spacing: 0.3vw;
+      color: black;
+      display: block;
+      text-transform: none;
+      font-size: clamp(1rem,calc(1rem + 1.2vw),3rem);
+      font-weight: 500;
+      font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+      text-shadow: 0 1.5px 1.5px rgb(0 0 0 / 50%); 
+}
 
   button {
     margin: 0 auto;
