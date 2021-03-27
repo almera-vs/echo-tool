@@ -1,0 +1,40 @@
+h1{
+    position:relative;
+    top:-8vh;
+    text-align: center;
+    z-index: 999;
+        word-spacing: 1vw;
+        color: black;
+        display: block;
+        text-transform: none;
+        font-size: clamp(1rem,calc(1rem + 1.2vw),3rem);
+        font-weight: 1000;
+        font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+        text-shadow: 0 2px 2px rgb(0 0 0 / 50%);
+}
+h2, h4, h5, h6{
+    position:relative;
+    top:-8vh;
+    text-align: center;
+    z-index: 999;
+        word-spacing: 0.3vw;
+        color: black;
+        display: block;
+        text-transform: none;
+        font-size: clamp(1rem,calc(1rem + 1.2vw),3rem);
+        font-weight: 500;
+        font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+        text-shadow: 0 1.5px 1.5px rgb(0 0 0 / 50%); 
+}
+p{
+font-size: smaller;
+position:relative;
+text-align: center;
+top:-12vh;
+text-transform: none;
+font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+text-shadow: 0 1px 1px rgb(0 0 0 / 50%);
+
+margin-left:20%;
+margin-right:20%;
+}
