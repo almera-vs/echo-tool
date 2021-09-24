@@ -1,10 +1,10 @@
 {
   "name": "echo-tool",
   "productName": "Echo Tool",
-  "description": "App that changes lowercase text to uppercase.",
+  "description": "The most intuitive text changer.",
   "keywords": [],
   "main": "./main.js",
-  "version": "1.0.0",
+  "version": "1.1.14",
   "author": "Rademenes16",
   "build": "electron-packager . --out=dist/win --platform=win32 --arch=x64 --icon=./icon/icon.ico --asar=true --overwrite",
   "win": {
